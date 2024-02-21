@@ -16,18 +16,26 @@
   }
 }
 
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  height: 100%;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.card-zoom:hover .card-zoom-image {
+  @apply scale-150;
+}
+
+.card-zoom:hover .card-zoom-text {
+  @apply opacity-100;
 }
