@@ -1,7 +1,7 @@
 'use client'
 
 import ProjectCard from "@/components/ProjectCard"
-import { Props } from "./layout"
+import { Props } from "@/utils/exports"
 
 const tempProjects = [
     {
