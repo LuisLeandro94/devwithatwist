@@ -13,7 +13,7 @@ export default function Home() {
     <main className="absolute w-screen min-h-screen bg-color-light dark:bg-color-dark md:px-24 sm:px-11 px-44">
       <Header activeTheme={activeTheme} setActiveTheme={setActiveTheme} />
       <About />
-      <Project />
+      <Project activeTheme={activeTheme} setActiveTheme={setActiveTheme} />
       <Contacts />
     </main>
   );
