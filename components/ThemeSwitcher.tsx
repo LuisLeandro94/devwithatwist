@@ -59,7 +59,7 @@ const ThemeSwitcher: React.FC<Props> = ({activeTheme, setActiveTheme}): JSX.Elem
     return (
         <>
         <div
-          className="z-[9999] my-auto"
+          className="z-[9999] my-auto float-right"
           id="theme-switcher"
           ref={switcher}
         >
