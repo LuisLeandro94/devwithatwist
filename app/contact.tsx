@@ -12,8 +12,10 @@ export type FormData = {
 const Contacts: React.FC = (): JSX.Element => {
     const {register, handleSubmit} = useForm<FormData>();
 
-    function onSubmit(data: FormData) {
-        sendEmail(data);
+    async function onSubmit(data: FormData) {
+        const res = await sendEmail(data);
+        
+        if (res.ok) {}
     }
 
     return (
