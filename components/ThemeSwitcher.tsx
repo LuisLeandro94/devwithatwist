@@ -1,5 +1,5 @@
 'use client'
-import { Props } from "@/app/layout";
+import { Props } from "@/utils/exports";
 import React, { useEffect, useRef } from "react";
 
 const svg = {
