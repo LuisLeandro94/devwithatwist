@@ -1,5 +1,5 @@
 'use client'
-import { Props, github, linkedin } from "@/app/layout";
+import { Props, github, linkedin } from "@/utils/exports";
 import React from "react";
 import ThemeSwitcher from "./ThemeSwitcher";
 
