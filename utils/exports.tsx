@@ -12,3 +12,18 @@ export const linkedin = {
     activeTheme: string,
     setActiveTheme: React.Dispatch<React.SetStateAction<string>>
   }
+
+  export const navbarItems = [
+    {
+      name: 'About',
+      href: '/about'
+    },
+    {
+      name: 'Contacts',
+      href: '/contacts',
+    },
+    {
+      name: 'Work',
+      href: '/work'
+    }
+  ]
